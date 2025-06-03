@@ -1,0 +1,512 @@
+/* Bricolage+Grotesque font link */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Roboto font link */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Mukta fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* navbar start here */
+.navbar-brand img{
+    width: 200px;
+    height: 40px;
+}
+.nav-item .nav-link{
+    color: #222;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 10px !important;
+}
+.nav-item a:hover{
+    border-bottom:2px solid #DD3142;
+}
+.home{
+    border-bottom: 2px solid #DD3142;
+}
+.nav-btn-area a{
+    border-radius: 5px;
+    background-color: #DD3142;
+    color: #FFF !important;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav-btn-area a:hover{
+    background: #ff6600;
+    color: #000 !important;
+    border-bottom: 0;
+    opacity: 0.8;
+}
+/* .nav-btn{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+} */
+/* hero section start here */
+.head-1{
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: clamp(24px,5vw,44px);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.head-2{
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: clamp(24px,5vw,44px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.phone{
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: clamp(18px,5vw,34px);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.hero-text-area{
+    width: 100%;
+    height: 362px;
+    display: flex;
+    align-items:center;
+}
+.hero-text{
+    width: 515px;
+    height: 280px;
+}
+.head-btn{
+    border-radius: 35px;
+    background: #DD3142;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/* hero section end here */
+
+/* section-1 stat here */
+.section-1{
+    width: 100%;
+    height: auto;
+    background: #DD3142;
+}
+.img-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+}
+.icon-heading-div{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.icon-details{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; 
+}
+.icon-btn{
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.icon-div{
+    border-left: 1px solid #FFF;
+}
+/* section-1 end here */
+/* start 00  */
+.hero {
+    background: url("images/plumber-pic-1.jpg") no-repeat center center / cover;
+    /* background:url("images/plumber-pic-1.jpg") no-repeat center center / cover, linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url('https://images.unsplash.com/photo-1581090700227-1e8f4a6c5471?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; */
+    color: white;
+    padding: 100px 0;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  .hero .btn-primary {
+    background-color: #ff6600;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+/* end 00 */
+
+/* start 01 */
+.about-us h2 {
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+  .about-us p {
+    color: #555;
+    line-height: 1.7;
+  }
+  .about-us .btn-outline-primary {
+    border-color: #ff6600;
+    color: #ff6600;
+  }
+  .about-us .btn-outline-primary:hover {
+    background-color: #ff6600;
+    color: #fff;
+  }
+/* end 01 */
+
+/* start 02 */
+.services h2 {
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+  .services p {
+    font-size: 1rem;
+  }
+  .service-card img {
+    width: 64px;
+    height: 64px;
+  }
+  .service-card h5 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .service-card p {
+    font-size: 0.95rem;
+    color: #666;
+  }
+/* end 02 */
+/* section-2 start here */
+.section-2-text-area{
+    background: rgba(255, 255, 255, 0.70);
+    color: #000;
+    font-family: Roboto;
+    font-size: clamp(24px,5vw,44px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-2-details{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-2-btn{
+    border-radius: 45px;
+    background: #DD3142;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-transform: uppercase;
+}
+/* section-2 end here */
+
+/* section-3 start here */
+.section-3{
+    width: 100%;
+    height: auto;
+    background: #DD3142;
+}
+.section-3-heading-1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: clamp(24px,5vw,44px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-3-para-1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-3-heading-2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: clamp(18px,5vw,36px);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.section-3-para-2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* section-3 end here */
+
+/* section-4 start here */
+.section-4-heading{
+    color: #0E0E0E;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section-4-para{
+    color: #6D6D6D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; 
+}
+.grouptext{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.section-5-img{
+    width: 100%;
+    height: 250px;
+    background: url("images/image\ 4.png") no-repeat center center / cover;
+}
+/* section-4 end here */
+
+/* section-6 css start here */
+.secgtion-6-headin{
+    color: #0E0E0E;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section-6-para{
+    color: #6D6D6D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; /* 18.69px */
+}
+.sec-6-image-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #DD3142;
+    border-radius: 5px;
+    position:absolute;
+    left: 30px;
+    bottom: -1%;
+}
+/* section-6 css end here */
+
+/* section-7 start here */
+.section-7{
+    width: 100%;
+    height: auto;
+    background: url("images/Rectangle\ 44.png") no-repeat center center / cover , url("images/6.png") no-repeat center center / cover;
+}
+.section-7-heading{
+    color: #EEFF06;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section-7-para{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-7-shothead{
+    color: #FFF;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: -5px;
+}
+/* section-7 end here */
+
+/* section-8 start here */
+.section-8-heading{
+    color: #0E0E0E;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card-title{
+    color: #000;
+    font-family: Roboto !important;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.card-text{
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* section-8 end here */
+
+/* footer section start here */
+.footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+.colunm-1-detail{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-col-2-heading{
+    color: #DD3142 !important;
+    font-family: Roboto !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    text-transform: uppercase;
+}
+.footer-col-2-para{
+    color: #FFF !important;
+    font-family: Roboto !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+.footer-4-heading{
+    color: #DD3142;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+.footer-4-head{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-4-para{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; 
+}
+.img-text{
+    margin-bottom: -29px;
+}
+.footer-col-2,.footer-col-3,.footer-col-4{
+    width: 100%;
+    background-color: #000;
+}
+/* .footer-col-3{
+    background-color: #000;
+}
+.footer-col-4{
+    background-color: #000;
+} */
+/* footer section start here */
+.vertical-line{
+    padding: 1px;
+    background-color: #FFF;
+    opacity: 1;
+}
+.icons-div{
+    opacity: 1;
+    color: #DD3142;
+}
